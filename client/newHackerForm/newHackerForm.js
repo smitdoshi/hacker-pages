@@ -1,3 +1,4 @@
+
 Template.newHackerForm.events({
   'submit #hackerForm' : function(event, template) {
 
@@ -16,7 +17,7 @@ Template.newHackerForm.events({
     }
 
     Hackers.insert(newHacker);
-    alert("insert successfull");
+    alert('Added:${newHacker.legalName} (${newHacker.hackerName})');
   }
 
 });
