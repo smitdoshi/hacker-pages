@@ -17,7 +17,7 @@ Template.newHackerForm.events({
     }
 
     Hackers.insert(newHacker);
-    alert('Added:${newHacker.legalName} (${newHacker.hackerName})');
+    alert(`Added:${newHacker.legalName} (${newHacker.hackerName})`);
   }
 
 });
